@@ -1,0 +1,151 @@
+* {
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+   
+   
+ }
+
+
+h1 {
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 2px 10px rgb(20, 41, 201);
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+
+.fondo {
+    width: 20%;
+    margin-top: 80px;
+    margin-left: 290px;
+    position:absolute;
+    opacity: 0.4;
+}
+
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.text-area {
+    border:none;
+    color: rgb(9, 10, 10);
+    margin-top: 30px;
+    margin-left: 100px;
+    text-transform: lowercase;
+
+}
+
+::placeholder {color: #030397;}
+.text-area :focus {
+    outline:none;
+}
+
+.mensaje {
+    background: rgb(231, 240, 240);
+    background-image: url(imagenes/candado.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 10px solid rgb(13, 13, 13);
+    border-radius: 24px;
+    color: #030397;
+    margin-left: 180px;
+    margin-top: 30px;
+  
+    position: absolute;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.informacion{
+    font-size: 15px;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+   
+
+}
+
+.btn-desencriptar {
+    background: azure;
+    border: 10px solid rgb(13, 13, 13);
+    border-radius: 24px;
+    color: rgb(9, 10, 10);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    font-weight: bold;
+}
+
+.btn-desencriptar:hover {
+    background: #edff40;
+}
+
+.btn-encriptar  {
+    background: rgb(46, 66, 210);
+    border: 10px solid rgb(13, 13, 13);
+    border-radius: 24px;
+    color: rgb(9, 10, 10);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-weight: bold;
+}
+
+.btn-encriptar:hover {
+    background:#edff40;
+}
+
+
+.copiar {
+    border: 10px solid rgb(13, 13, 13);
+    border-radius: 24px;
+    color: rgb(9, 10, 10);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 170px;
+    margin-top: 400px;
+    width: 328px;
+    font-weight: bold;
+}
+
+.copiar:hover {
+    color: azure;
+    background: rgb(20, 41, 201);;
+}
+
+footer {
+    background: url(imagenes/antiguo.jpg);
+    text-align: center;
+   
+}
+
+.copyright{
+    color: rgb(20, 41, 201);
+    font-family: Georgia;
+    font-size: 13px;
+    text-shadow: 5px 5px 15px black;
+    padding-bottom: 20px;
+   
+}
+
+.logo {
+    margin: 20px;
+    width: 3%;
+    }
+
+
+
